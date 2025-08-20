@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9882342128",
+    "project_id": "kitchen-monitoring",
+    "storage_bucket": "kitchen-monitoring.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9882342128:android:a8cefba2d5108a6ba56835",
+        "android_client_info": {
+          "package_name": "com.kithcen.monitoring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS2fHWJBk22i_nzVgx95KmTZgqbyGkyls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
