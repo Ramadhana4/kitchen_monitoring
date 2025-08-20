@@ -36,9 +36,11 @@ class _CookingScreenState extends State<CookingScreen> {
                     builder: (context, snapshot) {
                       if (!snapshot.hasData)
                         return Center(child: CircularProgressIndicator());
+
                       final orders = snapshot.data!.docs;
                       if (orders.isEmpty)
                         return Center(child: Text("Tidak ada pesanan."));
+
                       return ListView.builder(
                         itemCount: orders.length,
                         itemBuilder: (context, index) {

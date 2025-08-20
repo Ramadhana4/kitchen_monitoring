@@ -32,15 +32,13 @@ class HomeScreen extends StatelessWidget {
             child: Text("Cooking Screen"),
             onPressed: () => Navigator.push(
                 context,
-                MaterialPageRoute(
-                    builder: (_) => CookingScreen())),
+                MaterialPageRoute(builder: (_) => CookingScreen())),
           ),
           ElevatedButton(
             child: Text("History Screen"),
             onPressed: () => Navigator.push(
                 context,
-                MaterialPageRoute(
-                    builder: (_) => HistoryScreen())),
+                MaterialPageRoute(builder: (_) => HistoryScreen())),
           ),
         ],
       ),
